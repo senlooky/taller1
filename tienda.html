@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tienda</title>
+    <meta charset="utf 8"/>
+</head>
+<body>
+    <table class="table" id="products">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th class="text-right">Opciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+              <td class="product-id">1</td>
+              <td class="product-name">Libros</td>
+              <td class="product-price">100</td>
+              <td><button class="add-product btn btn-primary">Agregar</button></td>
+          </tr>
+          <tr>
+              <td class="product-id">2</td>
+              <td class="product-name">cuadernos</td>
+              <td class="product-price">15.50</td>
+              <td><button class="add-product btn btn-primary">Agregar</button></td>
+          </tr>
+          <tr>
+              <td class="product-id">3</td>
+              <td class="product-name">plumas</td>
+              <td class="product-price">2.35</td>
+              <td><button class="add-product btn btn-primary">Agregar</button></td>
+          </tr>
+        </tbody>
+    </table>
+
+    <div class="col-sm-6">
+        <h2>Venta</h2>
+  
+        <table class="table" id="shopping-list">
+            <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Precio Unit.</th>
+                  <th>Cant.</th>
+                  <th>Precio Total</th>
+              </tr>        
+            </thead>
+            <tbody></tbody>
+        </table>                
+  
+      </div>
+  
+    </div>
+  
+  </div>
+  <div id="valor_total"></div>
+    <script src="js/tienda.js"></script>
+</body>
+</html>
